@@ -25,7 +25,7 @@ Note:I have used Custom webhook(zapier)
 🔁 Step-by-Step Zapier Setup
 
 ✅ 1. Create a Free Zapier Account
-Go to https://zapier.com
+Go to `https://zapier.com`
 
 Sign up or log in
 
@@ -54,18 +54,18 @@ Connect your Gmail account
 
 Fill in:
 
-To: user_email from the webhook payload
+To: `user_email` from the webhook payload
 
 Subject: Top 3 Best Deals for Your Order
 
 Body:
-Hi there,
+`Hi there,`
 
-Here are your top 3 deals:
+`Here are your top 3 deals:`
 
-1. {{sellers__0__name}} - ${{sellers__0__price}} - Delivery: {{sellers__0__delivery}} days
+`1. {{sellers__0__name}} - ${{sellers__0__price}} - Delivery: {{sellers__0__delivery}} days
 2. {{sellers__1__name}} - ${{sellers__1__price}} - Delivery: {{sellers__1__delivery}} days
-3. {{sellers__2__name}} - ${{sellers__2__price}} - Delivery: {{sellers__2__delivery}} days
+3. {{sellers__2__name}} - ${{sellers__2__price}} - Delivery: {{sellers__2__delivery}} days`
 
 Thanks for using OmniDeals!
 
@@ -80,11 +80,11 @@ Create a Google Sheet like this:
 
 Sheet Name: OmniDeals Log
 
-Columns: Seller | Price | Delivery
+`Columns: Seller | Price | Delivery`
 
 In Zapier:
 
-Map sellers__0__name, price, delivery → row 1
+`Map sellers__0__name, price, delivery → row 1`
 
 Add additional actions to insert all 5 sellers (duplicate this action 5 times, or use a Zapier Loop/Code step for automation)
 
@@ -95,6 +95,7 @@ Add additional actions to insert all 5 sellers (duplicate this action 5 times, o
 steps invvolved to run it on Your system:
 
 step 1:Install omnidimension Module
+
 pip install omnidimension
 
 
