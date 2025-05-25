@@ -8,6 +8,7 @@ time to compare everything. Your task is to build a voice AI agent that can spea
 and negotiate prices, compare options, and help the user choose the best deal.
 
 Steps invloved:
+
 Step 1: Choose a product or ticket (e.g., sneakers, concert passes, cricket final) .I choose sneakers
 
 Step 2: Create or mock a list of reseller offers (price, delivery time, seller name) 
