@@ -18,3 +18,16 @@ Step 3: Use OmniDimension to build a voice agent that talks to the user and comp
 Step 4: Use OmniDimension’s Post Call API or custom webhook to: 
 • Send an email with the top 3 offers 
 • Log each seller interaction (price, availability, etc.) to Google Sheets or a CRM 
+
+
+
+
+steps invvolved to run it on Your system:
+
+step 1:Install omnidimension Module
+pip install omnidimension
+
+
+step 2: Copy paste the code
+
+from voice.py
