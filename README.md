@@ -9,8 +9,11 @@ and negotiate prices, compare options, and help the user choose the best deal.
 
 Steps invloved:
 Step 1: Choose a product or ticket (e.g., sneakers, concert passes, cricket final) .I choose sneakers
+
 Step 2: Create or mock a list of reseller offers (price, delivery time, seller name) 
+
 Step 3: Use OmniDimension to build a voice agent that talks to the user and compares these offers 
+
 Step 4: Use OmniDimension’s Post Call API or custom webhook to: 
 • Send an email with the top 3 offers 
 • Log each seller interaction (price, availability, etc.) to Google Sheets or a CRM 
