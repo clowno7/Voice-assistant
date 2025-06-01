@@ -31,13 +31,13 @@ Sign up or log in
 
 ✅ 2. Create a New Zap
 🔹 Trigger: Webhook
-Choose: Webhooks by Zapier
+Choose: `Webhooks by Zapier`
 
 Event: Catch Hook
 
 Click Continue
 
-Copy the Webhook URL
+`Copy the Webhook URL`
 
 Go back to OmniDimension and paste this URL in the Post-Call Webhook section
 
@@ -72,7 +72,7 @@ Thanks for using OmniDeals!
 ✅ 4. Action: Add to Google Sheets
 App: Google Sheets
 
-Event: Create Spreadsheet Row
+Event:` Create Spreadsheet Row`
 
 Choose a Google account
 
@@ -96,15 +96,15 @@ steps invvolved to run it on Your system:
 
 step 1:Install omnidimension Module
 
-pip install omnidimension
+`pip install omnidimension`
 
 
 step 2: Copy paste the code
 
-from voice.py
+`from voice.py`
 
-And Follow The step for Zapier and add your webHook ,Copy your WebHook link aand replace it with "https://hooks.zapier.com/hooks/catch/xxxxx/yyyyy" in voice.py file
+And Follow The step for Zapier and add your webHook ,Copy your WebHook link aand replace it with `"https://hooks.zapier.com/hooks/catch/xxxxx/yyyyy" in voice.py file`
 
 And you are Good to Go probably!!
 
-Note: using OmniDimension itself will be highly recommended
+`Note: using OmniDimension itself will be highly recommended`
