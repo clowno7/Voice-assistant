@@ -8,3 +8,5 @@ time to compare everything. Your task is to build a voice AI agent that can spea
 and negotiate prices, compare options, and help the user choose the best deal.
 
 Working on!!
+
+Gonna bring it with great UI
